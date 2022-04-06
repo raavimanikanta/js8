@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title>
+</head>
+<body>
+    <h1>Length in a string </h1>
+    <p>Length in a string defines the length of the string .i.e, how many characters are present in the string </p>
+    <h3>Example:<pre>
+        var String ="Hello"
+        var String2=String.length;
+        console.log(String2)
+     output:5
+    </pre></h3>
+
+    <h1>CharAt in string</h1>
+    <p>CharAt returns the character of the specified index </p>
+    <h3>Example:<pre>
+        const StringChar="Hello"
+        console.log(StringChar.charAt(1))
+    output:e
+    </pre></h3>
+
+    <h1>indexOf in string</h1>
+    <p>indexOf returns the character of the specified index </p>
+    <h3>Example:<pre>
+        const StringIndex="Hello"
+        console.log(StringIndex.indexOf("e"))
+    output:1
+    </pre></h3>
+
+    <h1>Replace in string</h1>
+    <p>Replace in string replaces the string with new string  </p>
+    <h3>Example:<pre>
+        const StringReplace="Hello"
+        console.log(StringReplace.replace("Hello","world"))
+        
+    output:World
+    </pre></h3>
+
+    <h1>ReplaceAll in string</h1>
+    <p>ReplaceAll in string replaces all the strings with new string  that matches the selected string   </p>
+    <h3>Example:<pre>
+        const StringReplace1="Hello is Full of Hello" 
+        console.log(StringReplace.replaceAll("Hello","world"))
+        
+    output:world is Full of world
+    </pre></h3>
+
+    <h2>Split in a string </h2>
+    <p>Split in a string is used to split the characters of the string  </p>
+    <h3>Example:<pre>
+        const stringSplit="Hello"
+        console.log(stringSplit.split(""))
+      
+        Output:["h","e","l","l","o"]
+    </pre></h3>
+    
+    <h2>Reverse in a string </h2>
+    <p> Reverse in a string is used to reverse the characters of the string  </p>
+    <h3>Example:<pre>
+        const stringSplit1="Javascript";
+        const stringsplit2=stringSplit1.split("")
+        const stringreverse=stringsplit2.reverse();
+        const stringjoin=stringreverse.join("")
+        console.log(stringjoin)
+    
+        output:tpircsavaj
+    </pre></h3>
+   
+    <h2>Trim in a string </h2>
+    <p>Trim in  a string is used to delete the spaces which exist in the string </p>
+
+    <h3>Example:<pre>
+        const StirngTrim="hello   "
+        consr NewStringTrim=StirngTrim.trim();
+        console.log(NewStringTrim.length)
+        console.log(StirngTrim)
+    Output:5 
+           8
+    </pre></h3>
+    
+    <h2>ConCatination in string </h2>
+    <p>concat method is used to merge the two strings and returns the new string</p>
+    <h3>Example:<pre>
+        const Strconcat="mani"
+        const Strconcat2="kanta"
+        const str3=Strconcat.concat(Strconcat2)
+        console.log(str3)
+    Output:manikanta
+    </pre></h3>
+
+    <h2>toUpperCase in string</h2>
+    <p>It is used to convert the lower case  letters to upper case letters </p>
+    <h3>Example:<pre>
+        const StrConvert="hello";
+        const StrResult=StrConvert.toUpperCase();
+        console.log(StrResult)
+    output:HELLO
+    </pre></h3>
+
+    <h2>toLowerCase in string</h2>
+    <p>It is used to convert the upper case letters to lower case letters </p>
+    <h3>Example:<pre>
+        const StrConvert="HELLO";
+        const StrResult=StrConvert.toLowerCase();
+        console.log(StrResult)
+    output:hello
+    </pre></h3>
+     
+    
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
